@@ -1,0 +1,40 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+  color: #fff;
+}
+
+.header {
+  background-color: #502a71;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 30px 50px;
+}
+
+.btn__submit {
+  background-color: #ff7179;
+  color: #fff;
+}
+
+.font {
+  color: #fff;
+}

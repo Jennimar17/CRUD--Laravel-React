@@ -1,0 +1,12 @@
+.navbar-title {
+  position: absolute;
+  right: 35px;
+}
+
+.navbar-title a {
+  color: #fff;
+}
+
+.navbar-title a:hover {
+  color: #ff7179;
+}

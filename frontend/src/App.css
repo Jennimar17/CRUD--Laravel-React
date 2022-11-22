@@ -1,0 +1,10 @@
+.app {
+  background: rgb(64, 16, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 16, 107, 1) 0%,
+    rgba(106, 28, 92, 1) 71%
+  );
+  overflow: hidden;
+  height: 100vh;
+}

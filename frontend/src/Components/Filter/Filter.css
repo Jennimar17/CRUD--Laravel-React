@@ -1,0 +1,53 @@
+.filter__container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+.select {
+  background-color: #502a71;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 55px;
+  position: absolute;
+  left: 0;
+}
+
+select {
+  background-image: url("https://1.bp.blogspot.com/-kjKb_TRfNRI/Vn_q0Fk0YsI/AAAAAAAARFg/bNGN-u8XB_Q/s800-Ic42/down.png"); /*aquí deberás escribir la ruta de la imagen que utilizarás como flecha del desplegable*/
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.button__container {
+  position: absolute;
+  right: 0;
+  border: none;
+}
+.icon__style {
+  color: #ff7179;
+  font-size: 1.9rem;
+}
+
+.button__container:hover {
+  box-shadow: 0 8px 52px 0 rgba(255, 111, 16, 0.514);
+  border-radius: 10px;
+  border: none;
+}
